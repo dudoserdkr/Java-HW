@@ -10,7 +10,7 @@ public class t17c {
         if (epsilon <= 0.0) {
             throw new IllegalArgumentException("epsilon must be > 0");
         }
-        
+
         double a = 1;
         double S = a;
 
