@@ -92,3 +92,27 @@ class Car {
         return make + " " + model + " " + year + " " + color;
     }
 }
+
+
+/*
+in:
+5
+Toyota Corolla 2010 Blue
+BMW X5 2015 Black
+Toyota Camry 2005 White
+Honda Civic 2000 Red
+Toyota Corolla 2008 Silver
+Toyota
+Corolla 10 2025
+ */
+
+/*
+out:
+Cars of make "Toyota" sorted by year:
+Toyota Camry 2005 White
+Toyota Corolla 2008 Silver
+Toyota Corolla 2010 Blue
+Cars of model "Corolla" older than 10 years:
+Toyota Corolla 2010 Blue
+Toyota Corolla 2008 Silver
+ */
